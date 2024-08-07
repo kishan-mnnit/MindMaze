@@ -6,6 +6,8 @@ import * as controller from '../controllers/controller.js';
 
 /** Questions Routes API */
 
+
+
 router.route('/questions')
         .get(controller.getQuestions) /** GET Request */
         .post(controller.insertQuestions) /** POST Request */
